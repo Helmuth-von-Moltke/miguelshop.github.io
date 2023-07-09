@@ -185,12 +185,8 @@ body {
 
 .button p {
   margin: 15%;
-  font-size: larger;
-}
-
-.price {
-  font-size: large;
-  color: black;
+  font-size: 25px;
+    color: black;
   font-weight: bold;
   text-shadow: 1px 1px 0px white, -1px -1px 0px white, 1px -1px 0px white,
     -1px 1px 0px white;
@@ -235,13 +231,16 @@ footer a:hover {
 }
 
 .commonbutton {
-  font-size: small;
+  font-size: 25px;
   color: gold;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   background-color: rgb(0, 33, 0);
+  display: block;
+  margin: 10px auto;
 }
+
 
 .commonbutton:hover{
   background-color: rgb(0, 90, 0);
