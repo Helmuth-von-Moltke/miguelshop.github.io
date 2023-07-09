@@ -56,6 +56,7 @@
 }
 
 body {
+  height: 100%;
   background-color: rgb(60, 60, 60);
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 10%;
@@ -221,5 +222,18 @@ footer a {
 }
 
 footer a:hover {
+  background-color: rgb(0, 90, 0);
+}
+
+.commonbutton {
+  font-size: small;
+  color: gold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(0, 33, 0);
+}
+
+.commonbutton:hover{
   background-color: rgb(0, 90, 0);
 }
