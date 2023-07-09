@@ -3,43 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Helmuth von Moltke" />
     <title>WOJTEK Shop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <ul class="nav">
-        <li class="nav-item"><a href="index.html">HOME</a></li>
-        <li class="nav-item"><a href="aircraft.html">AIRCRAFT</a></li>
-        <li class="nav-item"><a href="tanks.html">TANKS</a></li>
-        <li class="nav-item"><a href="aboutus.html">ABOUT US</a></li>
-        <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aircraft.html">AIRCRAFT</a></li>
+        <li><a href="tanks.html">TANKS</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </header>
     <h1 class="title">Contact Forms</h1>
     <div class="commontext">
-        <form action="submit.php" method="POST">
-          <div class="form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name"/>
-          </div>      
-          <div class="form">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email"/>
-          </div>
-          <div class="form">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-          </div>
-          <div class="form">
-            <input type="submit" value="Send Message" class="commonbutton" style="font-size: 25px;"/>
-          </div>
-        </form>
-      </div>
-      
+      <form action="submit.php" method="POST">
+        <div class="form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="form">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <a href="submitm.html" class="commonbutton">SEND</a>
+      </form>
+    </div>
+
     <footer>
-      <div class="footer-container">
+      <div class="footercontainer">
         <div class="left">
           <p>&copy; 2023 WOJTEK shop. All rights reserved.</p>
         </div>

@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-  .flex-container {
+  .flexcontainer {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .flex-container {
+  .flexcontainer {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -114,6 +114,31 @@ body {
   width: 70%;
 }
 
+.centredtext{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 238, 143);
+  font-weight: bold;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.commonbutton {
+  font-size: 25px;
+  color: gold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(0, 33, 0);
+  display: block;
+  margin: 10px auto;
+}
+
+.commonbutton:hover{
+  background-color: rgb(0, 90, 0);
+}
+
 .image {
   position: relative;
   display: flex;
@@ -127,7 +152,7 @@ body {
   max-width: 100%;
 }
 
-.image-overlay {
+.imageoverlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -141,12 +166,12 @@ body {
   align-items: center;
 }
 
-.image-overlay a {
+.imageoverlay a {
   text-decoration: none;
   color: white; 
 }
 
-.image-overlay a:hover {
+.imageoverlay a:hover {
   color:gold;
 }
 
@@ -199,7 +224,7 @@ footer {
   margin-top: 5%;
 }
 
-.footer-container {
+.footercontainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -227,22 +252,6 @@ footer a {
 }
 
 footer a:hover {
-  background-color: rgb(0, 90, 0);
-}
-
-.commonbutton {
-  font-size: 25px;
-  color: gold;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: rgb(0, 33, 0);
-  display: block;
-  margin: 10px auto;
-}
-
-
-.commonbutton:hover{
   background-color: rgb(0, 90, 0);
 }
 
